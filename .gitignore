@@ -1,0 +1,21 @@
+# Unreal Engine generated files
+/Binaries/
+/Intermediate/
+/Saved/
+/DerivedDataCache/
+/.vs/
+
+# Local build and IDE artifacts
+*.sln
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+*.pdb
+*.obj
+*.dll
+*.exp
+*.lib
+
+# Private presentation material and generated previews
+/Docs/

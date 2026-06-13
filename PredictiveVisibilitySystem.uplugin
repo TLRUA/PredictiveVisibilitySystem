@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Predictive Visibility System",
+	"Description": "Editor bake and runtime prediction helpers for non-invasive streaming, asset, and PSO prefetch candidates.",
+	"Category": "Optimization",
+	"CreatedBy": "TLRUA",
+	"CreatedByURL": "https://github.com/TLRUA",
+	"DocsURL": "https://github.com/TLRUA/PredictiveVisibilitySystem",
+	"SupportURL": "https://github.com/TLRUA/PredictiveVisibilitySystem/issues",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "PredictiveVisibilitySystemRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "PredictiveVisibilitySystemEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		}
+	]
+}
